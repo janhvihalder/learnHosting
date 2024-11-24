@@ -1,0 +1,51 @@
+#counter{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(157, 255, 0);
+}
+#numero{
+    
+    font-size: 18;
+    font-family:cursive;
+    margin: 0px 10px;
+    position: relative;
+    left: 20px;
+}
+#increment, #decrement{
+    position: relative;
+    left:0px;
+    transition: background-colour 0.3s, transform 0.3s;
+    font-size: 18px;
+    color: aliceblue; 
+    font-family:cursive;
+    margin: 0px 5px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(192, 20, 20);
+}
+#decrement{
+    left: 40px;
+}
+#increment:hover, #decrement:hover{
+    background-color: #840909; /* Darker red on hover */
+    transform: scale(1.1); /* Scale up the button */
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    background-color: #840909;
+}
+.size1{
+    font-size: 20px;
+}
+
+.blue{
+    background-color: aquamarine;
+}
+
+
+
